@@ -16,7 +16,7 @@ conda activate InternLM
 
 接下来使用 `conda info -e` 查看新环境是否创建成功：
 
-![](D:/学校/2024寒假大模型训练营/Lecture 3/img/img_3.png)
+![](img/img_3.png)
 
 可以看到 `InternLM` 环境已经创建成功。接下来我们在环境中安装运行 demo 所需要的依赖。
 
@@ -88,7 +88,7 @@ unzip averaged_perceptron_tagger.zip
 
 clone 后结果如下：
 
-![](D:/学校/2024寒假大模型训练营/Lecture 3/img/img_4.png)
+![](img/img_4.png)
 
 #### 下载项目代码
 
@@ -359,7 +359,7 @@ demo.launch()
 
 接下来我们直接用 python 命令运行，这里需要将服务器端口映射到本地端口。我们首先查看服务器端口号：
 
-![](D:/学校/2024寒假大模型训练营/Lecture 3/img/img_5.png)
+![](img/img_5.png)
 
 接下来我们直接在本地 powershell 终端输入以下命令：
 
@@ -369,8 +369,8 @@ ssh -CNg -L 7860:127.0.0.1:7860 root@ssh.intern-ai.org.cn -p 36585
 
 此时端口映射已经完成，Demo 默认会在7860端口上运行，我们打开本地回环网址，可以看到如下结果：
 
-![](D:/学校/2024寒假大模型训练营/Lecture 3/img/img_6.png)
+![](img/img_6.png)
 
 我们输入问题：你是谁，查看模型的回复：
 
-![](D:/学校/2024寒假大模型训练营/Lecture 3/img/img_7.png)
+![](img/img_7.png)
